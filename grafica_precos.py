@@ -36,4 +36,7 @@ for texto_filtro, texto_preco in zip(lista_qtd, lista_preco):
     tabelinha.append((texto_filtro, texto_preco))
     # print(tabela)
 for item in tabelinha:
-    print(f'{item[0]} : {item[1]} Preço venda = {item[1]*1.66}')  # imprime os valores da lista tabelinha
+    # replce revove o R$ e a virgula e atribui o ponto
+    venda = float(item[1].replace('R$', '').replace(',', '.'))
+    # imprime os valores da lista tabelinha
+    print(f'Custo= {item[0]} : {item[1]} \nPreço de venda: {item[0]} = R$ {venda * 1.66:.2f} ','\n')
