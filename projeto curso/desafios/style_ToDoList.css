@@ -1,0 +1,63 @@
+.container{
+    width: 480px;
+    height: 32px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    gap: 3px;
+    width: 100%;
+    align-items: center;
+    height: 100%;
+}
+
+form input[type="text"]{
+    flex: 1;
+    height: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+
+button:active{
+    background-color: rgb(255, 77, 0);
+    color: whitesmoke;
+    
+    
+
+}
+form button{
+    background-color: #ffb300;
+    font-size: 24px;
+    height: 100%;
+    width: 52px;
+    border: 0px;
+    cursor: pointer;
+
+}
+.tarefas{
+    border: 2px solid rgb(187, 187, 187);
+    width: 480px;
+}
+.impar{
+    background-color: #d5d9d9;
+}
+
+.tarefas input[type="checkbox"] {
+
+    vertical-align:middle;
+    height: 35px;
+    margin-left: 30px;
+}
+
+
+label{
+    font-size: 20px;
+    vertical-align: middle;
+    
+}

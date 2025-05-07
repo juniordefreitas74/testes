@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin:auto
+    padding: 90;
+}
+
+h1 {
+    color: blue;
+    font-style: italic;
+}
+h3 {
+    color: rgb(255, 0, 0);
+    font-style: italic ;
+    font-weight: bold;
+}
+
+button{background-color: rgb(84, 137, 234);}
+button[disabled] {
+    background-color: rgb(184, 234, 251);
+}
+
+.azul {
+    color: rgb(8, 211, 86);
+}
+.preto {
+    color: rgb(0, 0, 0);
+}
+button:hover {
+    background-color: rgb(239, 19, 19);
+    color: white;
+}
+button[disabled]:hover {
+    background-color: rgb(139, 7, 233);
+    color: rgb(255, 255, 255);
+}
+.texto{color: rgb(255, 0, 0);}
+div p.descricao{color: rgb(8, 211, 86);}
+
+#conteudo p.primeiro{color: rgb(8, 211, 86);}
+
+#conteudo p{color: #8b07e950; font-size: 20px;}
+p{color: #ef1313; font-size: 26px;}
+
+/* Trabalhando com box model */
+
+.container{div {
+    width: 200px;
+    height:auto;
+    padding: 22px;
+    margin: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #d8eafa;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgb(84, 84, 84);
+    display: inline-block;
+    text-align: center;
+
+}
+}
+div{display: flex;}

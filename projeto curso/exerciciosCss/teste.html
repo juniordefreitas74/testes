@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+          <td align="center">Nome </td>
+          <td align="center">Idade</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td align="center">30</td>
+        </tr>
+        <tr>
+            <td><i>Junior</i></td>
+            <td><b>50 anos</b></td>
+        </tr>
+      </table>
+    <br>
+    <form>
+        <br>
+        <label >Nome Completo</label>
+        <br>
+        <input type="text">
+        <br>
+        
+        <label >Digite seu elogio.</label>
+        <br>
+        <textarea></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>  
+    <br>
+    <br>
+    <br>
+<p>*******************************************************</p>
+
+<h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:crimson; font: size 300px">Formulário</h1>
+<form>
+<label for="name">Nome</label>
+<input name="=name"
+id="name"
+placeholder="Digite seu nome"
+required
+minlength="2"
+maxlength="100">
+<br>
+<label for="email">E-mail</label>
+<br>
+<label for="nascimento"></label>
+<input type="date" name="nascimento" id="nascimento">
+<br>
+<label for="CEP"></label>
+<input type="text" name="CEP" id="CEP" placeholder="Digite seu CEP" pattern="^[0-9]{5}-[0-9]{3}$">
+<br>
+<label for="grade">Nota</label>
+<input type="number" name="grade" id="grade" min="0" max="10" step="0.5"placeholder="0.0">
+<br>
+<label for="Comentarios">Comentários</label>
+<br>
+<textarea name="Comentarios" id="Comentarios" cols="30" rows="3"></textarea>
+<br>
+<label for="tecnologia">Tecnologia Favorita</label>
+<select name="tecnologia" id="tecnologia" required>
+    <option value=""selected disabled> Selecione </option>
+   
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="javascript">JavaScript</option>
+    <option value="python">Python</option>
+    <option value="java">Java</option>
+
+</select>
+<br>
+<br>
+
+    <fieldset>
+        <legend>Você está gostando do curso?</legend>
+        <input type="radio" name="gostando" id="sim" value="sim" checked>
+        <label for="sim">Sim</label>
+        <input type="radio" name="gostando" id="nao" value="nao">
+        <label for="nao">Não</label>
+        <input type="radio" name="gostando" id="talvez" value="talvez">
+        <label for="talvez">Talvez</label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Qual linguagem você recomenda?</legend>
+        <input type="checkbox" name="linguagem" id="html" value="html">
+        <label for="html">HTML</label>  
+        <input type="checkbox" name="linguagem" id="css" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" name="linguagem" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="linguagem" id="python" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" name="linguagem" id="java" value="java">
+        <label for="java">Java</label>
+    </fieldset>
+
+    <button>Enviar</button>
+
+
+</form>
+
+<h1>Hello World</h1>
+<script>
+    document.querySelectorAll("h1")[1].innerText = "Olá Mundo!";<!-- Pegou todos h1 ttransformou em lista e pedi para pegar o segundo-->
+</script>
+
+
+
+
+</body>
+</html>
